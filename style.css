@@ -1,6 +1,6 @@
 body {
-    background: rgb(6, 5, 0);
-    color: rgba(216, 19, 160, 0.873);
+    background: rgb(240, 183, 183);
+    color: rgba(58, 60, 57, 0.873);
     padding: 10px;
     font-family: Arial, sans-serif;
 }
@@ -12,7 +12,7 @@ body {
 
 /* navigation menu */
 nav {
-    background: rgb(58, 206, 174);
+    background: rgb(128, 135, 134);
     margin: 0 auto;
     display: flex;
     padding: 10px;
@@ -22,7 +22,7 @@ nav {
 h1 {
     display: flex;
     align-items: center;
-    color: white;
+    color: rgb(110, 170, 207);
     flex: 1;
     margin: 0;
 }
@@ -75,3 +75,31 @@ main {
 h2, h3 {
     margin: 0px;
 }]
+
+
+
+/* Portfolio styles */
+.content h1 {
+  color: rgb(23, 19, 19);
+}
+
+#portfolio {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+#portfolio li {
+  background: #fbfbfd;
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+#portfolio li:hover {
+  background: #f972ba;
+}
+
+#portfolio a {
+  text-decoration: none;
+  color: #717675;
+}
