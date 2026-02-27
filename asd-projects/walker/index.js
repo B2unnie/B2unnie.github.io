@@ -115,11 +115,11 @@ if (event.which === KEY.DOWN) {
 $("#walker").css("top", walker.positionY);
   }
   function wallCollision() {
-if (walker.positionX < 0 || walker.positionX > $("#board").width()){
+if (walker.positionX < 0 || walker.positionX > 390) {
   walker.positionX -= walker.speedX
 }
-if (walker.positionY < 0 || walker.positionY > $("#board").width()){
+if (walker.positionY < 0 || walker.positionY > 390) {
   walker.positionY -= walker.speedY
-  }
+}
 }
 }
